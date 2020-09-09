@@ -1,11 +1,9 @@
 .main {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, $width-of-card);
   justify-content: space-between;
-  flex-wrap: wrap;
   
   &__card {
     margin-bottom: 50px;
   }
-  align-items: center;
-  
 }
