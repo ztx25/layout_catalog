@@ -1,9 +1,5 @@
 .main {
   display: grid;
-  grid-template-columns: repeat(auto-fit, $width-of-card);
-  justify-content: space-between;
-  
-  &__card {
-    margin-bottom: 50px;
-  }
+  grid-template-columns: repeat(4, $width-of-card);
+  gap: 50px 48px;
 }
