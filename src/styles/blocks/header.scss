@@ -7,9 +7,13 @@
   background: $color-of-background;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 
+  @media (max-width: 899px) {
+    width: 100%;
+    white-space: nowrap;
+  }
+
   &__img {
     width: 40px;
     margin-top: 3px;
   }
-  
 }

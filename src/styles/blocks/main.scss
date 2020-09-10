@@ -1,10 +1,5 @@
 .main {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  
-  &__card {
-    margin-bottom: 50px;
-  }
-  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(4, $width-of-card);
+  gap: 50px 48px;
 }
